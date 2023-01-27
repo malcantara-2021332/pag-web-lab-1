@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; 
+}
+
+#menu li > a {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 50rem;
+}
+
+#contenido{
+    margin: 25px;
+}
+
+.listado:hover{
+    background-color: orange;
+}
+
+
+.logo {
+    color: black;
+    margin-top: 18px;
+}
+
+span {
+    color: #f9004d;
+}
+
+#nombre-h4 {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+#hobbies {
+    margin-top: 15px;
+}
+#hobbies:hover{
+    color: white;
+}
+#hobbies-2 {
+    margin-top: 15px;
+}
+#hobbies-2:hover{
+    color: white;
+}
+#hobbies-3 {
+    margin-top: 15px;
+}
+#hobbies-3:hover{
+    color: white;
+}
+
+.hero ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.hero ul li a:hover {
+    background-color:#f9004d ;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: transform .6s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+    .servicio-fila {
+        width:100% !important;
+        text-align: center;
+    }
+    
+    #equipo p {
+        display: none;            
+    }
+}
+
+@media(max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+/*.hero {
+    height: 10vh;
+    width: 100%;
+}*/
+
+#img-logo {
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+
+.fotos {
+    margin-top: -10px;
+}
+
+
+.biografia-content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parrafo {
+    color: #3f3f3f;
+    text-align: justify;
+    margin: 10px 200px 0px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
